@@ -1,0 +1,65 @@
+.add__Expense{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+button{
+    width: 200px;
+    height: 80px;
+    border: 1px solid #FFF;
+    border-radius: 12px;
+    background-color: navy;
+    color: #FFF;
+    font-size: 1.25rem;
+    font-weight: 500;
+    cursor: pointer;
+    margin-top: 1em;
+    box-shadow: 5px 5px 5px #aaaaaa;
+}
+
+.addExpense__modal{
+    height:20rem;
+    width: 25rem;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    background-color: tomato;
+    
+}
+
+ #add_button{
+    width: 80px;
+    height: 50px;
+    border: 1px solid #FFF;
+    border-radius: 12px;
+    background-color: navy;
+    color: #FFF;
+    font-size: 1rem;
+    font-weight: 300;
+    cursor: pointer;
+}
+
+input{
+    height: 2em;
+    width: 20em;
+    margin: 10px;
+}
+
+.item_div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.amount_div{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    align-items: center;
+}
